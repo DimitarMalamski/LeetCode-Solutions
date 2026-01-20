@@ -1,0 +1,29 @@
+﻿// Problem 119. Pascal's Triangle II
+// Link https://leetcode.com/problems/pascals-triangle-ii/description/
+// Difficulty: Easy
+class Solution
+{
+   static void Main(string[] args)
+   {
+      int rowIndex = 5;
+      IList<int> output = GetRow(rowIndex);
+      Console.WriteLine(string.Join(", ", output));
+   }
+
+   public static IList<int> GetRow(int rowIndex)
+   {
+      List<int> row = new List<int> { 1 };
+
+      for (int i = 1; i <= rowIndex; i++)
+      {
+         row.Add(1);
+
+         for (int j = i - 1; j > 0; j--)
+         {
+            row[j] = row[j] + row[j - 1];
+         }
+      }
+
+      return row;
+   }
+}
