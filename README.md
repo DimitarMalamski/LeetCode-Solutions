@@ -36,11 +36,11 @@ Each solution file includes:
 | Strings             | 24              |
 | Linked Lists        | 6               |
 | Trees / Graphs      | 11              |
-| Dynamic Programming | 1               |
+| Dynamic Programming | 2               |
 | Two Pointers        | 4               |
 | Stack               | 2               |
 | Math                | 20              |
-| **Total**           | 120             |
+| **Total**           | 121             |
 ```
 
 *This will be updated as I progress with the problems*
