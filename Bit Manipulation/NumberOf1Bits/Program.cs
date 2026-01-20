@@ -6,7 +6,7 @@ class Solution
    static void Main(string[] args)
    {
       int n = 11;
-      int output = HammingWeight(n);
+      int output = HammingWeightOptimized(n);
       Console.WriteLine(output);
    }
    static int HammingWeight(int n)
@@ -17,6 +17,19 @@ class Solution
       {
          count += (int)(n & 1);
          n >>= 1;
+      }
+
+      return count;
+   }
+
+   static int HammingWeightOptimized(int n)
+   {
+      int count = 0;
+
+      while (n != 0)
+      {
+         n &= (n - 1); // remove lowest set bit;
+         count++;
       }
 
       return count;
