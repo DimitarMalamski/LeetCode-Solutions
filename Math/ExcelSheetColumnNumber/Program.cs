@@ -5,7 +5,7 @@ class Solution
 {
    static void Main(string[] args)
    {
-      string columnTitle = "ZY";
+      string columnTitle = "A";
       int output = TitleToNumber(columnTitle);
       Console.WriteLine(output);
    }
