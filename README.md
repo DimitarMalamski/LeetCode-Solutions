@@ -32,7 +32,7 @@ Each solution file includes:
 ```markdown
 | Category            | Problems Solved |
 | ------------------- | --------------- |
-| Arrays              | 52              |
+| Arrays              | 53              |
 | Strings             | 24              |
 | Linked Lists        | 7               |
 | Trees / Graphs      | 12              |
@@ -41,7 +41,7 @@ Each solution file includes:
 | Stack               | 3               |
 | Math                | 22              |
 | Bit Manipulation    | 2               |
-| **Total**           | 128             |
+| **Total**           | 129             |
 ```
 
 *This will be updated as I progress with the problems*
