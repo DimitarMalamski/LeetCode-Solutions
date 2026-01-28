@@ -37,11 +37,11 @@ Each solution file includes:
 | Linked Lists        | 8               |
 | Trees / Graphs      | 14              |
 | Dynamic Programming | 2               |
-| Two Pointers        | 5               |
+| Two Pointers        | 6               |
 | Stack               | 4               |
 | Math                | 31              |
 | Bit Manipulation    | 4               |
-| **Total**           | 153             |
+| **Total**           | 154             |
 ```
 
 *This will be updated as I progress with the problems*
