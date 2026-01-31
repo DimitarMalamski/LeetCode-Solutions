@@ -40,8 +40,8 @@ Each solution file includes:
 | Two Pointers        | 6               |
 | Stack               | 4               |
 | Math                | 31              |
-| Bit Manipulation    | 5               |
-| **Total**           | 156             |
+| Bit Manipulation    | 6               |
+| **Total**           | 157             |
 ```
 
 *This will be updated as I progress with the problems*
