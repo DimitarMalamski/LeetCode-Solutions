@@ -39,9 +39,9 @@ Each solution file includes:
 | Dynamic Programming | 2               |
 | Two Pointers        | 6               |
 | Stack               | 4               |
-| Math                | 33              |
+| Math                | 34              |
 | Bit Manipulation    | 6               |
-| **Total**           | 165             |
+| **Total**           | 166             |
 ```
 
 *This will be updated as I progress with the problems*
