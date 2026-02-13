@@ -35,13 +35,13 @@ Each solution file includes:
 | Arrays              | 63              |
 | Strings             | 30              |
 | Linked Lists        | 8               |
-| Trees / Graphs      | 15              |
+| Trees / Graphs      | 16              |
 | Dynamic Programming | 2               |
 | Two Pointers        | 6               |
 | Stack               | 4               |
 | Math                | 35              |
 | Bit Manipulation    | 6               |
-| **Total**           | 169             |
+| **Total**           | 170             |
 ```
 
 *This will be updated as I progress with the problems*
