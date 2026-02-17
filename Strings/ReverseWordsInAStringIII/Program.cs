@@ -6,7 +6,7 @@ class Solution
   static void Main(string[] args)
   {
     string s = "Let's take LeetCode contest";
-    string output = ReverseWords(s);
+    string output = OptimizedReverseWords(s);
     Console.WriteLine(output);
   }
   public static string ReverseWords(string s)
@@ -21,5 +21,31 @@ class Solution
     }
 
     return string.Join(" ", words);
+  }
+  public static string OptimizedReverseWords(string s)
+  {
+    char[] chars = s.ToCharArray();
+    int left = 0;
+
+    for (int right = 0; right <= chars.Length; right++)
+    {
+      if (right == chars.Length || chars[right] == ' ')
+      {
+        Reverse(chars, left, right - 1);
+        left = right + 1;
+      }
+    }
+
+    return new string(chars);
+  }
+  private static void Reverse(char[] chars, int l, int r) {
+    while (l < r)
+    {
+      char temp = chars[l];
+      chars[l] = chars[r];
+      chars[r] = temp;
+      l++;
+      r--;
+    }
   }
 }
