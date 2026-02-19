@@ -34,14 +34,14 @@ Each solution file includes:
 | ------------------- | --------------- |
 | Arrays              | 63              |
 | Strings             | 33              |
-| Linked Lists        | 8               |
+| Linked Lists        | 9               |
 | Trees / Graphs      | 18              |
 | Dynamic Programming | 2               |
 | Two Pointers        | 6               |
 | Stack               | 4               |
 | Math                | 35              |
 | Bit Manipulation    | 6               |
-| **Total**           | 175             |
+| **Total**           | 176             |
 ```
 
 *This will be updated as I progress with the problems*
