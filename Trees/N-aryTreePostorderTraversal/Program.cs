@@ -9,9 +9,31 @@ class Solution
 
     Node root = BuildTree(input);
 
-    var output = Postorder(root);
+    var output = PostorderOptimized(root);
 
     Console.WriteLine(string.Join(", ", output));
+  }
+  public static IList<int> PostorderOptimized(Node root)
+  {
+    List<int> result = new List<int>();
+    if (root == null) return result;
+
+    Stack<Node> stack = new Stack<Node>();
+    stack.Push(root);
+
+    while (stack.Count > 0)
+    {
+      Node node = stack.Pop();
+      result.Add(node.val);
+
+      foreach (var child in node.children)
+      {
+        stack.Push(child);
+      }
+    }
+
+    result.Reverse();
+    return result;
   }
   public static IList<int> Postorder(Node root)
   {
