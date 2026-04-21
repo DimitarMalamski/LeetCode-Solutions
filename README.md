@@ -33,7 +33,7 @@ Each solution file includes:
 | Category            | Problems Solved |
 | ------------------- | --------------- |
 | Arrays              | 94              |
-| Strings             | 41              |
+| Strings             | 42              |
 | Linked Lists        | 10              |
 | Trees / Graphs      | 29              |
 | Dynamic Programming | 3               |
@@ -41,7 +41,7 @@ Each solution file includes:
 | Stack               | 5               |
 | Math                | 38              |
 | Bit Manipulation    | 9               |
-| **Total**           | 235             |
+| **Total**           | 236             |
 ```
 
 *This will be updated as I progress with the problems*
