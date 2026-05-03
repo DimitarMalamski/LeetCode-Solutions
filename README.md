@@ -38,10 +38,10 @@ Each solution file includes:
 | Trees / Graphs      | 29              |
 | Dynamic Programming | 3               |
 | Two Pointers        | 6               |
-| Stack               | 5               |
+| Stack               | 6               |
 | Math                | 38              |
 | Bit Manipulation    | 9               |
-| **Total**           | 239             |
+| **Total**           | 240             |
 ```
 
 *This will be updated as I progress with the problems*
