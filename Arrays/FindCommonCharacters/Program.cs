@@ -7,10 +7,12 @@ class Solution {
     List<string> output = CommonChars(words);
     Console.WriteLine(string.Join(",", output)); 
   }
-  public static List<string> CommonChars(string[] words) {
+  public static List<string> CommonChars(string[] words)
+  {
     int[] commonCounts = new int[26];
 
-    foreach(char c in words[0]) {
+    foreach (char c in words[0])
+    {
       commonCounts[c - 'a']++;
     }
 
@@ -25,7 +27,7 @@ class Solution {
 
       for (int j = 0; j < 26; j++)
       {
-          commonCounts[j] = Math.Min(commonCounts[j], currentCounts[j]);
+        commonCounts[j] = Math.Min(commonCounts[j], currentCounts[j]);
       }
     }
 
@@ -33,12 +35,13 @@ class Solution {
 
     for (int i = 0; i < 26; i++)
     {
-      while (commonCounts[i] > 0) {
+      while (commonCounts[i] > 0)
+      {
         char c = (char)(i + 'a');
         result.Add(c.ToString());
         commonCounts[i]--;
       }
-    } 
+    }
 
     return result;
   }
