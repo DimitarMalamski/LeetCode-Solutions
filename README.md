@@ -1,14 +1,18 @@
 # LeetCode Solutions
+
 This repository contains my daily LeetCode problem-solving practice. It is part of my preparation for software engineering internships during my studies at Fontys University of Applied Sciences.
 
 ---
+
 ## Goals
+
 - Strengthen knowledge of Data Structures & Algorithms;
 - Build consistency by solving problems daily;
 - Prepare for technical interviews;
 - Track and showcase progress publicly;
 
 ---
+
 ## Repository Structure
 
 ```mathematica
@@ -23,10 +27,12 @@ leetcode-solutions/
 ```
 
 Each solution file includes:
-  - Problem name + LeetCode link;
-  - Clean, working code;
+
+- Problem name + LeetCode link;
+- Clean, working code;
 
 ---
+
 ## Progress Tracker
 
 ```markdown
@@ -44,15 +50,18 @@ Each solution file includes:
 | **Total**           | 257             |
 ```
 
-*This will be updated as I progress with the problems*
+_This will be updated as I progress with the problems_
 
 ---
+
 ## Example Solution Format
+
 Each solution is structured for clarity and consistency, including the problem reference, a clean implementation, and (when relevant) an optimized approach.
 
-### Example: Two Sum  
+### Example: Two Sum
+
 🔗 https://leetcode.com/problems/two-sum/  
-🟢 Difficulty: Easy  
+🟢 Difficulty: Easy
 
 ```csharp
 // Problem 1. Two Sum
@@ -107,12 +116,17 @@ class Solution
     }
 }
 ```
----
-## Commit Style
-  - `feat: add solution for Two Sum ( Arrays )`;
-  - `feat: add solution for Valid Palindrome ( Strings )`;
-  - `refactor: optimize Reverse Linked List solution`;
 
 ---
+
+## Commit Style
+
+- `feat: add solution for Two Sum ( Arrays )`;
+- `feat: add solution for Valid Palindrome ( Strings )`;
+- `refactor: optimize Reverse Linked List solution`;
+
+---
+
 ## Roadmap
-  - Reach 300 problems solved;
+
+- Reach 350 problems solved;
